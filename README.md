@@ -1,4 +1,4 @@
-<img src="img/red.png" width="50" height="50">
+<img src="img/green.png" width="50" height="50">
 
 # cpp-lab-4
 # Лабораторная работа №4 (Automata)
