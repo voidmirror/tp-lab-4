@@ -46,5 +46,5 @@ TEST(lab4, task6)
 {
 	Automata *a = new Automata();
 	a->finish();
-	EXPECT_EQ(2, a->getState());
+	EXPECT_EQ(1, a->getState());
 }
