@@ -2,6 +2,12 @@
 #include <string>
 #include "Automata.h"
 
+//-----------------------------------------------------------//
+//
+//     THE STATE DIAGRAM CORRESPONDS TO THE PROPOSED ONE
+//
+//-----------------------------------------------------------//
+
 void Automata::on() {
 	State = STATE_WAIT;
 	cash = 0;
@@ -88,3 +94,10 @@ void Automata::finish() {
 	std::cout << "Thank you!" << std::endl;
 	on();
 }
+
+// ADDITIONAL ========================================================================
+
+int Automata::getState() {
+	return State;
+}
+

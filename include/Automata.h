@@ -4,6 +4,12 @@
 //#include <string>
 #include <vector>
 
+//-----------------------------------------------------------//
+//
+//     THE STATE DIAGRAM CORRESPONDS TO THE PROPOSED ONE
+//
+//-----------------------------------------------------------//
+
 enum STATES {
 	STATE_OFF,
 	STATE_WAIT,
@@ -32,6 +38,9 @@ public:
 	void cook();
 	void finish();
 	void associate();
+
+	int getState();
+	void setState(int x);
 };
 
 //std::vector <std::string> menu;
